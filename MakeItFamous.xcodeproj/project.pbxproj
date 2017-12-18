@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4771D6D0F276592E38C27EE1 /* Pods_MakeItFamous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E488D584E37C625744079B2E /* Pods_MakeItFamous.framework */; };
 		D070053B1FE1F56F00248F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070053A1FE1F56F00248F97 /* AppDelegate.swift */; };
-		D070053D1FE1F56F00248F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070053C1FE1F56F00248F97 /* ViewController.swift */; };
+		D070053D1FE1F56F00248F97 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070053C1FE1F56F00248F97 /* SignInVC.swift */; };
 		D07005401FE1F56F00248F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D070053E1FE1F56F00248F97 /* Main.storyboard */; };
 		D07005421FE1F56F00248F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07005411FE1F56F00248F97 /* Assets.xcassets */; };
 		D07005451FE1F56F00248F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07005431FE1F56F00248F97 /* LaunchScreen.storyboard */; };
+		D070054D1FE1F71100248F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D070054C1FE1F71100248F97 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F470C1B06E610643265B62D /* Pods-MakeItFamous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItFamous.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItFamous/Pods-MakeItFamous.release.xcconfig"; sourceTree = "<group>"; };
+		45E69FF371B6DF51C1BBA1E0 /* Pods-MakeItFamous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItFamous.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeItFamous/Pods-MakeItFamous.debug.xcconfig"; sourceTree = "<group>"; };
 		D07005371FE1F56F00248F97 /* MakeItFamous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItFamous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D070053A1FE1F56F00248F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D070053C1FE1F56F00248F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D070053C1FE1F56F00248F97 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D070053F1FE1F56F00248F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D07005411FE1F56F00248F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07005441FE1F56F00248F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07005461FE1F56F00248F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D070054C1FE1F71100248F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E488D584E37C625744079B2E /* Pods_MakeItFamous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItFamous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4771D6D0F276592E38C27EE1 /* Pods_MakeItFamous.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1D2048E8EE28D0EAD8C0001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E488D584E37C625744079B2E /* Pods_MakeItFamous.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5EDA9C469890881ABE92F5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E69FF371B6DF51C1BBA1E0 /* Pods-MakeItFamous.debug.xcconfig */,
+				1F470C1B06E610643265B62D /* Pods-MakeItFamous.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D070052E1FE1F56F00248F97 = {
 			isa = PBXGroup;
 			children = (
 				D07005391FE1F56F00248F97 /* MakeItFamous */,
 				D07005381FE1F56F00248F97 /* Products */,
+				B5EDA9C469890881ABE92F5D /* Pods */,
+				B1D2048E8EE28D0EAD8C0001 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,39 @@
 		D07005391FE1F56F00248F97 /* MakeItFamous */ = {
 			isa = PBXGroup;
 			children = (
+				D070054E1FE1FD5400248F97 /* Model */,
+				D07005501FE1FD7A00248F97 /* Controller */,
+				D070054F1FE1FD6800248F97 /* View */,
 				D070053A1FE1F56F00248F97 /* AppDelegate.swift */,
-				D070053C1FE1F56F00248F97 /* ViewController.swift */,
 				D070053E1FE1F56F00248F97 /* Main.storyboard */,
 				D07005411FE1F56F00248F97 /* Assets.xcassets */,
 				D07005431FE1F56F00248F97 /* LaunchScreen.storyboard */,
 				D07005461FE1F56F00248F97 /* Info.plist */,
+				D070054C1FE1F71100248F97 /* GoogleService-Info.plist */,
 			);
 			path = MakeItFamous;
+			sourceTree = "<group>";
+		};
+		D070054E1FE1FD5400248F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D070054F1FE1FD6800248F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D07005501FE1FD7A00248F97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D070053C1FE1F56F00248F97 /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D07005491FE1F56F00248F97 /* Build configuration list for PBXNativeTarget "MakeItFamous" */;
 			buildPhases = (
+				AEC3DA3814C6B1B3E62C2450 /* [CP] Check Pods Manifest.lock */,
 				D07005331FE1F56F00248F97 /* Sources */,
 				D07005341FE1F56F00248F97 /* Frameworks */,
 				D07005351FE1F56F00248F97 /* Resources */,
+				E1A205FB11A17E4046248951 /* [CP] Embed Pods Frameworks */,
+				00CE5DDF8B1975FD36FD167B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07005451FE1F56F00248F97 /* LaunchScreen.storyboard in Resources */,
+				D070054D1FE1F71100248F97 /* GoogleService-Info.plist in Resources */,
 				D07005421FE1F56F00248F97 /* Assets.xcassets in Resources */,
 				D07005401FE1F56F00248F97 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +187,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00CE5DDF8B1975FD36FD167B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeItFamous/Pods-MakeItFamous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC3DA3814C6B1B3E62C2450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A205FB11A17E4046248951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeItFamous/Pods-MakeItFamous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D07005331FE1F56F00248F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D070053D1FE1F56F00248F97 /* ViewController.swift in Sources */,
+				D070053D1FE1F56F00248F97 /* SignInVC.swift in Sources */,
 				D070053B1FE1F56F00248F97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +362,7 @@
 		};
 		D070054A1FE1F56F00248F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E69FF371B6DF51C1BBA1E0 /* Pods-MakeItFamous.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C8X3PLP4H;
@@ -272,6 +376,7 @@
 		};
 		D070054B1FE1F56F00248F97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F470C1B06E610643265B62D /* Pods-MakeItFamous.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C8X3PLP4H;
@@ -302,6 +407,7 @@
 				D070054B1FE1F56F00248F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
