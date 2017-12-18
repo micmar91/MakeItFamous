@@ -14,6 +14,11 @@
 		D07005421FE1F56F00248F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07005411FE1F56F00248F97 /* Assets.xcassets */; };
 		D07005451FE1F56F00248F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07005431FE1F56F00248F97 /* LaunchScreen.storyboard */; };
 		D070054D1FE1F71100248F97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D070054C1FE1F71100248F97 /* GoogleService-Info.plist */; };
+		D07005521FE838A500248F97 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07005511FE838A500248F97 /* FancyView.swift */; };
+		D07005551FE8395800248F97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07005541FE8395800248F97 /* Constants.swift */; };
+		D07005571FE83B9800248F97 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07005561FE83B9800248F97 /* RoundButton.swift */; };
+		D07005591FE83DCD00248F97 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07005581FE83DCD00248F97 /* FancyField.swift */; };
+		D070055B1FE83F3900248F97 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070055A1FE83F3900248F97 /* SignInButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		D07005441FE1F56F00248F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07005461FE1F56F00248F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D070054C1FE1F71100248F97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D07005511FE838A500248F97 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		D07005541FE8395800248F97 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D07005561FE83B9800248F97 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D07005581FE83DCD00248F97 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		D070055A1FE83F3900248F97 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		E488D584E37C625744079B2E /* Pods_MakeItFamous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItFamous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		D07005391FE1F56F00248F97 /* MakeItFamous */ = {
 			isa = PBXGroup;
 			children = (
+				D07005531FE8393800248F97 /* Utilities */,
 				D070054E1FE1FD5400248F97 /* Model */,
 				D07005501FE1FD7A00248F97 /* Controller */,
 				D070054F1FE1FD6800248F97 /* View */,
@@ -103,6 +114,10 @@
 		D070054F1FE1FD6800248F97 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D07005511FE838A500248F97 /* FancyView.swift */,
+				D07005561FE83B9800248F97 /* RoundButton.swift */,
+				D07005581FE83DCD00248F97 /* FancyField.swift */,
+				D070055A1FE83F3900248F97 /* SignInButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 				D070053C1FE1F56F00248F97 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		D07005531FE8393800248F97 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D07005541FE8395800248F97 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D070055B1FE83F3900248F97 /* SignInButton.swift in Sources */,
+				D07005591FE83DCD00248F97 /* FancyField.swift in Sources */,
 				D070053D1FE1F56F00248F97 /* SignInVC.swift in Sources */,
+				D07005571FE83B9800248F97 /* RoundButton.swift in Sources */,
 				D070053B1FE1F56F00248F97 /* AppDelegate.swift in Sources */,
+				D07005521FE838A500248F97 /* FancyView.swift in Sources */,
+				D07005551FE8395800248F97 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
